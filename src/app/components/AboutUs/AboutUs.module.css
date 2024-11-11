@@ -1,11 +1,12 @@
 .navButton {
-    color: black;
+    color: rgb(224, 34, 34);
     background: none;
     border: none;
     cursor: pointer;
     position: fixed;
     top: 2vh;
     left: 26vw;
+    font-size: 40px;
   }
   
   .navButton:hover {
