@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Logo from '../Logo/Logo';
 import AboutUs from '../AboutUs/AboutUs';
 import ContactUs from '../ContactUs/ContactUs';
+import Manager from '../Manager/Manager';
 import styles from './NavBar.module.css';
 
 interface NavBarProps {
@@ -25,6 +26,7 @@ const NavBar: React.FC<NavBarProps> = ({ setPage }) => {
         <Logo setPage={setPage} />
         <AboutUs setPage={setPage} />
         <ContactUs setPage={setPage} />
+        <Manager setPage={setPage} />
     </nav>
   );
 };

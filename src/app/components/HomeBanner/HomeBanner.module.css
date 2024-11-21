@@ -1,0 +1,11 @@
+.homebanner {
+    margin: 0;
+    position: absolute; /* Change from relative to absolute */
+    top: 12%; /* Position at 50% from the top */
+    left: 27%; /* Position at 50% from the left */
+    width: 100vw; /* Logo width as a percentage of the viewport width */
+    height: 57vh; /* Fixed height for the logo */
+    object-fit: cover; /* Ensures the image covers the area of the box without distorting its aspect ratio */
+    overflow: hidden;
+    transform: translate(-27%, -10%); /* Shift the element back by 50% of its own width and height */
+  }
