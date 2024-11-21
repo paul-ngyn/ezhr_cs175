@@ -6,6 +6,7 @@
     position: fixed;
     top: 2vh;
     left: 55vw;
+    padding: 12px 24px;
   }
   
 .navButton:hover {
