@@ -4,6 +4,7 @@ import Logo from '../Logo/Logo';
 import AboutUs from '../AboutUs/AboutUs';
 import ContactUs from '../ContactUs/ContactUs';
 import Manager from '../Manager/Manager';
+import Pricing from '../Pricing/Pricing';
 import styles from './NavBar.module.css';
 
 interface NavBarProps {
@@ -27,6 +28,7 @@ const NavBar: React.FC<NavBarProps> = ({ setPage }) => {
         <AboutUs setPage={setPage} />
         <ContactUs setPage={setPage} />
         <Manager setPage={setPage} />
+        <Pricing setPage={setPage} />
     </nav>
   );
 };
