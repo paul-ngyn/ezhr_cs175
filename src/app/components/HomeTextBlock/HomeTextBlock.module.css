@@ -1,0 +1,14 @@
+.homeTextBlock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    position: fixed; /* Ensure the position is fixed */
+    top: 66vh;
+    left: 52%;
+    transform: translateX(-50%); /* Center the text block horizontally */
+    width: auto; /* Adjust width to fit content */
+    height: auto; /* Adjust height to fit content */
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
