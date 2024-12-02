@@ -4,11 +4,17 @@
     border: none;
     cursor: pointer;
     position: fixed;
-    top: 2vh;
-    left: 2vw;
+    top: 1vh;
+    left: 0.5vw;
     font-size: 20PX;
   }
   
   .navButton:hover {
     text-decoration: underline;
   }
+
+  .logoImage {
+    height: 46px; /* Adjust the height as needed */
+    width: auto;
+    left: 10vh;
+}

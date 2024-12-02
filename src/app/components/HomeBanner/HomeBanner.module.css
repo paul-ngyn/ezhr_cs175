@@ -1,0 +1,22 @@
+.homebanner {
+    margin: 0;
+    position: absolute; /* Change from relative to absolute */
+    top: 12%; /* Position at 50% from the top */
+    left: 27%; /* Position at 50% from the left */
+    width: 100vw; /* Logo width as a percentage of the viewport width */
+    height: 56vh; /* Fixed height for the logo */
+    object-fit: cover; /* Ensures the image covers the area of the box without distorting its aspect ratio */
+    overflow: hidden;
+    transform: translate(-27%, -10%); /* Shift the element back by 50% of its own width and height */
+  }
+
+  .bannerText {
+    position: absolute;
+    top: 41%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: 8px 4px 2px rgba(0, 0, 0, 0.5);
+}

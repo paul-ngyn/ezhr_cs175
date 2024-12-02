@@ -1,0 +1,19 @@
+.navButton {
+    color: white;
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: fixed;
+    top: 0.8vh;
+    left: 94vw;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navButton:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    text-decoration: none;
+}

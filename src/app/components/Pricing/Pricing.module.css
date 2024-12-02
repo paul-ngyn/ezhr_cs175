@@ -5,9 +5,9 @@
     cursor: pointer;
     position: fixed;
     top: 2vh;
-    left: 88vw;
+    left: 78vw;
   }
   
-.navButton:hover {
+  .navButton:hover {
     text-decoration: underline;
   }
