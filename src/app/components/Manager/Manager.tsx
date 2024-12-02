@@ -7,8 +7,12 @@ interface ManagerProps {
 }
 
 const Manager: React.FC<ManagerProps> = ({ setPage }) => {
+  const handleClick = () => {
+    setPage('manager');
+  };
+
   return (
-    <button onClick={() => setPage('manager')} className={styles.navButton}>
+    <button onClick={handleClick} className={styles.navButton}>
       Manager
     </button>
   );
