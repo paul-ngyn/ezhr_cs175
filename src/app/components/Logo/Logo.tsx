@@ -10,7 +10,7 @@ interface LogoProps {
 
 const Logo: React.FC<LogoProps> = ({ setPage }) => {
   return (
-    <button onClick={() => setPage('logo')} className={styles.navButton}>
+    <button onClick={() => setPage('home')} className={styles.navButton}>
       <Image src={logo} alt="EZHR Logo" className={styles.logoImage} />
     </button>
   );
