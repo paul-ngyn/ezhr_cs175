@@ -1,9 +1,9 @@
 .sidebar {
-    width: 200px;
+    width: 225px;
     background-color: #f4f4f4;
     padding: 2px;
     position: fixed;
-    top: 64px;
+    top: 64.5px;
     left: 0;
     height: 100%;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -14,16 +14,49 @@
   
   .sidebarButton {
     display: block;
-    width: 60%;
+    width: 75%;
+    height: 65px;
     padding: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
     background-color: #007bff;
     color: white;
     border: 2px;
+    border-radius: 10px;
     cursor: pointer;
     text-align: center;
   }
   
   .sidebarButton:hover {
     background-color: #0056b3;
+  }
+
+  .popup {
+    position: fixed;
+    top: 20%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popupContent {
+    position: relative;
+  }
+  
+  .closeButton {
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .boldText {
+    font-weight: bold;
+    font-size: 18px;
   }
