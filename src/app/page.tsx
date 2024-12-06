@@ -5,7 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import HomeBanner from './components/HomeBanner/HomeBanner';
 import FindOutMore from './components/FindOutMore/FindOutMore';
 import HomeTextBlock from './components/HomeTextBlock/HomeTextBlock';
-
+import Sidebar from './components/SideBar/SideBar';
 
 
 export default function Home() {
@@ -21,8 +21,14 @@ export default function Home() {
           <FindOutMore setPage={setPage} />
         </>
       )}
-      {page === 'manager' && (
-        <div/>
+    {page === 'manager' && (
+        <div className="flex w-full">
+          <Sidebar/>
+          <div className="flex-grow p-8">
+            {/* Add content for the manager page here */}
+            <h1>Manager Page</h1>
+          </div>
+        </div>
       )}
     </div>
   );
