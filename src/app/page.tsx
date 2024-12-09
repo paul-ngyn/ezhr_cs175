@@ -7,6 +7,7 @@ import FindOutMore from './components/FindOutMore/FindOutMore';
 import HomeTextBlock from './components/HomeTextBlock/HomeTextBlock';
 import Sidebar from './components/SideBar/SideBar';
 import Spreadsheet from './components/Spreadsheet/Spreadsheet';
+import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 
 
 
@@ -29,6 +30,13 @@ export default function Home() {
             <h1>Manager Page</h1>
             <Sidebar/>
             <Spreadsheet/>
+          </div>
+        </div>
+      )}
+      {page === 'about' && (
+        <div className="flex w-full">
+          <div className="flex-grow p-8">
+            <AboutUsPage/>
           </div>
         </div>
       )}

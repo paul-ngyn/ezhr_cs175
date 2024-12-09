@@ -36,9 +36,9 @@ const Sidebar: React.FC = () => {
                 <input type="text" placeholder="Enter Employee Name here" />
                 <h3 className={styles.boldText}>Employee Type</h3>
                 <select>
-                  <option value="full-time">Full-time</option>
-                  <option value="part-time">Part-time</option>
-                  <option value="contractor">Contractor</option>
+                  <option value="Engineer">Engineer</option>
+                  <option value="HR">HR</option>
+                  <option value="Sales">Sales</option>
                 </select>
               </>
             )}
