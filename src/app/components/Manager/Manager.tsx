@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './Manager.module.css';
 
+
 interface ManagerProps {
   setPage: (page: string) => void;
 }
@@ -15,6 +16,7 @@ const Manager: React.FC<ManagerProps> = ({ setPage }) => {
     <button onClick={handleClick} className={styles.navButton}>
       Manager
     </button>
+    
   );
 };
 

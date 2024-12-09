@@ -1,62 +1,66 @@
 .sidebar {
-    width: 225px;
-    background-color: #f4f4f4;
-    padding: 2px;
-    position: fixed;
-    top: 64.5px;
-    left: 0;
-    height: 100%;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .sidebarButton {
-    display: block;
-    width: 75%;
-    height: 65px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-color: #007bff;
-    color: white;
-    border: 2px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  .sidebarButton:hover {
-    background-color: #0056b3;
-  }
+  width: 225px;
+  background-color: #f4f4f4;
+  padding: 2px;
+  position: fixed;
+  top: 0; /* Start from the top of the viewport */
+  left: 0;
+  height: calc(100% - 64.5px); /* Subtract the height of the navbar */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64.5px; /* Add margin to account for the navbar */
+  z-index: 100;
+}
 
-  .popup {
-    position: fixed;
-    top: 20%;
-    left: 18%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    z-index: 1000;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .popupContent {
-    position: relative;
-  }
-  
-  .closeButton {
-    position: absolute;
-    bottom: 2px;
-    right: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 10px;
-  }
+.sidebarButton {
+  display: block;
+  width: 75%;
+  height: 65px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
 
-  .boldText {
-    font-weight: bold;
-    font-size: 18px;
-  }
+.sidebarButton:hover {
+  background-color: #0056b3;
+}
+
+.popup {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popupContent {
+  position: relative;
+  z-index: 1000;
+}
+
+.closeButton {
+  position: absolute;
+  bottom: 2px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.boldText {
+  font-weight: bold;
+  font-size: 18px;
+}

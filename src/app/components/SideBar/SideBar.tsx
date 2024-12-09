@@ -50,7 +50,7 @@ const Sidebar: React.FC = () => {
                   <option value="software2">Software 2</option>
                   <option value="software3">Software 3</option>
                 </select>
-                <h2 className={styles.boldText}>Upload Software</h2>
+                <h2 className={styles.boldText}>Upload Software or Video</h2>
                 <input type="file" />
               </>
             )}
