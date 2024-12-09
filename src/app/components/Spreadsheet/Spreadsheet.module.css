@@ -1,0 +1,34 @@
+.spreadsheetContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin-left: 225.4px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .spreadsheet {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .spreadsheet th,
+  .spreadsheet td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .spreadsheet th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .spreadsheet tr {
+    height: 43px; /* Set a fixed height for all rows */
+  }

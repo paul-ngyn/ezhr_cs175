@@ -36,9 +36,9 @@ const Sidebar: React.FC = () => {
                 <input type="text" placeholder="Enter Employee Name here" />
                 <h3 className={styles.boldText}>Employee Type</h3>
                 <select>
-                  <option value="full-time">Full-time</option>
-                  <option value="part-time">Part-time</option>
-                  <option value="contractor">Contractor</option>
+                  <option value="Engineer">Engineer</option>
+                  <option value="HR">HR</option>
+                  <option value="Sales">Sales</option>
                 </select>
               </>
             )}
@@ -50,7 +50,7 @@ const Sidebar: React.FC = () => {
                   <option value="software2">Software 2</option>
                   <option value="software3">Software 3</option>
                 </select>
-                <h2 className={styles.boldText}>Upload Software</h2>
+                <h2 className={styles.boldText}>Upload Software or Video</h2>
                 <input type="file" />
               </>
             )}
