@@ -1,32 +1,70 @@
-.container {
+@keyframes fadeIn {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
   }
   
   .employees {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
     width: 100%;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
   }
   
   .employee {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 1px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
   }
   
-  .image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
+  .imageContainer {
+    margin-top: 75px;
+    width: 235px;
+    height: 235px;
+    border-radius: 48%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
   }
   
   .text {
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    animation: fadeIn 0.5s ease-in-out; /* Apply fade-in animation */
+    font-family: 'Courier New', Courier, monospace
+  }
+  
+  .footerText {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 55px;
+    animation: fadeIn 0.5s ease-in-out; /* Apply fade-in animation */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .employee:nth-child(4) {
+    grid-column: 1.5 / 3; /* Center the fourth employee */
+  }
+  
+  .employee:nth-child(5) {
+    grid-column: 2 / 4; /* Center the fifth employee */
   }

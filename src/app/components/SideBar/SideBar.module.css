@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .sidebar {
   width: 225px;
   background-color: #f4f4f4;
@@ -12,6 +21,8 @@
   align-items: center;
   margin-top: 64px; /* Add margin to account for the navbar */
   z-index: 100;
+  border: 0.5px solid lightgray;
+  animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
 }
 
 .sidebarButton {
@@ -21,16 +32,17 @@
   padding: 10px;
   margin-top: 30px;
   margin-bottom: 10px;
-  background-color: #007bff;
+  background-color: red;
   color: white;
   border: 2px;
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
 }
 
 .sidebarButton:hover {
-  background-color: #0056b3;
+  background-color: red;
 }
 
 .popup {
@@ -43,8 +55,7 @@
   z-index: 1000;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .popupContent {

@@ -1,7 +1,7 @@
 .navButton {
     color: white;
-    background-color: #007BFF;
-    border: 1px solid #007BFF;
+    background-color: red;
+    border: 1px solid red;
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
@@ -13,7 +13,7 @@
 }
 
 .navButton:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: red;
+    border-color: red;
     text-decoration: none;
 }

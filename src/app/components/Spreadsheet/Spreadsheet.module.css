@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0.25;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+
 .spreadsheetContainer {
     display: flex;
     justify-content: center;
@@ -7,6 +18,8 @@
     margin-top: 40px;
     position: relative;
     z-index: 1;
+    border: 1px solid LIGHTgray;
+    animation: fadeIn 0.75s ease-in-out; /* Apply fade-in animation */
   }
   
   .spreadsheet {
@@ -15,6 +28,7 @@
     border-collapse: collapse;
     background-color: white;
     z-index: 1;
+    animation: fadeIn 0.75s ease-in-out; /* Apply fade-in animation */
   }
   
   .spreadsheet th,
@@ -30,5 +44,5 @@
   }
   
   .spreadsheet tr {
-    height: 43px; /* Set a fixed height for all rows */
+    height: 42.95px; /* Set a fixed height for all rows */
   }
