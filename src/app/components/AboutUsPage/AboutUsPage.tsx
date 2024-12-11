@@ -43,7 +43,7 @@ const AboutUsPage: React.FC = () => {
         </div>
       </div>
       <div className={styles.footerText}>
-        <p>Our team of top-tier college students instructed by none other than Professor Faloutsos are dedicated to helping your team get to work as fast as possible without the stress of onboarding.</p>
+        <p>Our team of top-tier college students instructed by none other than Professor Faloutsos are dedicated to helping your team get to work as fast as possible without the stress of onboarding. Be sure to connect with us on LinkedIn to hear more from us!</p>
       </div>
     </div>
   );
