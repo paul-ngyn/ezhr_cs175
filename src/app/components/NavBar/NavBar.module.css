@@ -5,6 +5,7 @@
     margin: 0 auto; /* Centers the navbar horizontally */
     position: fixed;
     top: 0;
+    border: 1px solid lightgray;
   }
   
   .nav-list {
