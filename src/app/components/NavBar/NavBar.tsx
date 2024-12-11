@@ -3,7 +3,7 @@
 import React from 'react';
 import Logo from '../Logo/Logo';
 import AboutUs from '../AboutUs/AboutUs';
-import ContactUs from '../ContactUs/ContactUs';
+import Login from '../Login/Login';
 import Manager from '../Manager/Manager';
 import Pricing from '../Pricing/Pricing';
 import styles from './NavBar.module.css';
@@ -21,7 +21,7 @@ const NavBar: React.FC<NavBarProps> = ({ setPage }) => {
     <nav className={styles.navbar}>
       <Logo setPage={handlePageChange} />
       <AboutUs setPage={handlePageChange} />
-      <ContactUs setPage={handlePageChange} />
+      <Login setPage={handlePageChange} />
       <Manager setPage={handlePageChange} />
       <Pricing setPage={handlePageChange} />
     </nav>

@@ -4,9 +4,9 @@ import styles from './Spreadsheet.module.css';
 
 const Spreadsheet: React.FC = () => {
   const rows = [
-    { employee: 'John Doe', title: 'Lead Engineer', type: 'Windows', status: 'Active', software: 'MongoDB, Node', resource: 'How to optimize LLM (video)' },
-    { employee: 'Jane Smith', title: 'Sales', type: 'Windows', status: 'Inactive', software: 'Excel', resource: 'Quarterly Report' },
-    { employee: 'Mike Johnson', title: 'HR', type: 'Windows', status: 'Active', software: 'Rippling, Excel' , resource: 'Introductory forms' },
+    { employee: 'John Doe', title: 'Lead Engineer', type: 'Windows Surface Pro 2', status: 'Active', software: 'MongoDB, Node', resource: 'How to optimize LLM (video)' },
+    { employee: 'Jane Smith', title: 'Sales', type: 'Windows Surface Pro 3', status: 'Inactive', software: 'Excel', resource: 'Quarterly Report' },
+    { employee: 'Mike Johnson', title: 'HR', type: 'Windows Surface Pro 2', status: 'Active', software: 'Rippling, Excel' , resource: 'Introductory forms' },
     // Add more rows as needed
   ];
 
