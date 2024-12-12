@@ -18,7 +18,7 @@
   }
   
   .logoContainer {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .form {
@@ -47,6 +47,7 @@
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 20px;
   }
   
   .submitButton:hover {
