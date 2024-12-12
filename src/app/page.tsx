@@ -8,6 +8,7 @@ import HomeTextBlock from './components/HomeTextBlock/HomeTextBlock';
 import Sidebar from './components/SideBar/SideBar';
 import Spreadsheet from './components/Spreadsheet/Spreadsheet';
 import AboutUsPage from './components/AboutUsPage/AboutUsPage';
+import LoginPage from './components/LoginPage/LoginPage';
 
 
 
@@ -37,6 +38,14 @@ export default function Home() {
         <div className="flex w-full">
           <div className="flex-grow p-8">
             <AboutUsPage/>
+          </div>
+        </div>
+      )}
+
+      {page === 'login' && (
+        <div className="flex w-full">
+          <div className="flex-grow p-8">
+            <LoginPage/>
           </div>
         </div>
       )}
