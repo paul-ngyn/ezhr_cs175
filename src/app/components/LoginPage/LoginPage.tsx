@@ -36,7 +36,7 @@ const LoginPage: React.FC = () => {
           className={styles.input}
         />
         <button type="submit" className={styles.submitButton}>
-          Submit
+          Login
         </button>
       </form>
     </div>
